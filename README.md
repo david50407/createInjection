@@ -105,13 +105,14 @@ const {
   inject: FooterInjector,
 } = createInjection(footerKey)
 
+export const useHeader = () => inject(headerKey)
+export const useFooter = () => inject(footerKey)
+
 export {
   HeaderProvider,
   HeaderInjector,
   FooterProvider,
   FooterInjector,
-  useHeader: () => inject(headerKey),
-  useFooter: () => inject(footerKey),
 }
 ```
 
