@@ -1,0 +1,32 @@
+{
+  "name": "create-injection",
+  "version": "0.0.0",
+  "description": "Template-level provide/inject in Vue",
+  "author": "Tzu-Te \"Davy\" Kuo <me@davy.tw>",
+  "homepage": "https://github.com/david50407/createInjection",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david50407/createInjection.git"
+  },
+  "keywords": [
+    "vue",
+    "create-injection",
+    "utils"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "unpkg": "./index.iife.min.js",
+  "jsdelivr": "./index.iife.min.js",
+  "types": "./index.d.cts",
+  "dependencies": {
+    "vue-demi": ">=0.14.6"
+  }
+}

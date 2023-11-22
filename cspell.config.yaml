@@ -1,0 +1,14 @@
+version: "0.2"
+ignorePaths: []
+dictionaryDefinitions: []
+dictionaries: []
+words:
+  - consola
+  - demi
+  - Destructurable
+  - esno
+  - iife
+  - jsdelivr
+  - vueuse
+ignoreWords: []
+import: []

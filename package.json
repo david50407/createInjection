@@ -1,0 +1,29 @@
+{
+  "name": "create-injection-monorepo",
+  "type": "module",
+  "private": true,
+  "version": "1.0.1",
+  "description": "Template-level provide/inject in Vue",
+  "author": "Tzu-Te \"Davy\" Kuo <me@davy.tw>",
+  "license": "MIT",
+  "scripts": {
+    "build": "esno script/build.ts",
+    "build:meta": "esno script/build-meta.ts",
+    "build:rollup": "rollup -c --configPlugin=rollup-plugin-esbuild",
+    "clean": "rimraf --glob \"packages/*/dist\"",
+    "publish": "esno script/publish.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.2",
+    "consola": "^3.2.3",
+    "esno": "^4.0.0",
+    "rimraf": "^5.0.5",
+    "rollup": "^3.29.4",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-esbuild": "^6.1.0",
+    "rollup-plugin-pure": "^0.2.1",
+    "vue": "^3.3.8",
+    "vue-demi": "^0.14.6",
+    "vue2": "npm:vue@^2.7"
+  }
+}
